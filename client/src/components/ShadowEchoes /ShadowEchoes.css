@@ -1,0 +1,82 @@
+.shadow-echoes {
+    margin-bottom: 150px;
+}
+
+.shadow-echoes__list {
+    display: flex;
+    gap: 25px;
+}
+
+.shadow-echoes__item {
+    width: calc(50% - 25px);
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    border: 1px solid #333232;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shadow-echoes__title-section {
+    color: #eeeeee;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.shadow-echoes__title {
+    color: #eeeeee;
+    font-size: 1.75rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 1rem;
+    max-width: 250px;
+}
+
+.shadow-echoes__descr {
+    color: #bcbcbc;
+    font-size: 1rem;
+    max-width: 24rem;
+    margin-bottom: 2.25rem;
+    max-width: 250px;
+}
+
+.shadow-echoes__img {
+    border-radius: 12px;
+    height: 530px;
+}
+
+.shadow-echoes__item:nth-child(2) .shadow-echoes__img,
+.shadow-echoes__item:nth-child(1) .shadow-echoes__img {
+    border-radius: 12px;
+    width: 270px;
+    object-fit: cover;
+}
+
+.shadow-echoes__item:nth-child(2) {
+    background: linear-gradient(to top, #f0f0f0, #ffffff);
+}
+
+.shadow-echoes__item:nth-child(2) .shadow-echoes__title {
+    color: #333;
+}
+
+.shadow-echoes__item:nth-child(2) .shadow-echoes__descr {
+    color: #333;
+}
+
+.shadow-echoes__btn {
+    background-color: #07a183;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: .2s;
+}
+
+.shadow-echoes__btn:hover {
+    background-color: #13caa6;
+}

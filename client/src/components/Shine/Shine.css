@@ -1,0 +1,70 @@
+.shine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.shine__title {
+    color: #eeeeee;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.shine__btn {
+    background-color: #07a183;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: .2s;
+    margin-bottom: 100px;
+}
+
+.shine__btn:hover {
+    background-color: #13caa6;
+}
+
+.shine__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.shine__item {
+    width: 32%;
+    background-color: #1f1f1f;
+    height: 155px;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #333232;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.shine__item:hover {
+    box-shadow: inset -10px 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.shine__item:hover .shine__item__title {
+    color: #13caa6;
+}
+
+.shine__item__title {
+    color: #d8d7d7;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    transition: .2s;
+}
+
+.shine__item__descr {
+    color: #bbbbbb;
+    font-size: 16px;
+    max-width: 400px;
+    font-weight: 500;
+}

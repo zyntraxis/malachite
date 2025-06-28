@@ -1,0 +1,53 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.banner__title {
+    color: #eeeeee;
+    font-size: 3.75rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.banner__descr {
+    color: #bcbcbc;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    max-width: 44rem;
+    margin-bottom: 2.25rem;
+}
+
+.banner__btns {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.banner__btn {
+    background-color: #07a183;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: .2s;
+}
+
+.banner__btn:hover {
+    background-color: #13caa6;
+}
+
+.banner__btn:nth-child(2) {
+    background-color: transparent;
+    color: #07a183;
+}
+
+.banner__btn:nth-child(2):hover {
+    color: #13caa6;
+}
+
+.banner__image {
+    height: 296px;
+}

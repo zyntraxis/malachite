@@ -1,0 +1,44 @@
+.energy-figure {
+    margin-bottom: 150px;
+}
+
+.energy-figure__title {
+    color: #eeeeee;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.energy-figure__list {
+    display: flex;
+    gap: 25px;
+}
+
+.energy-figure__item {
+    width: calc(50% - 25px);
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    border: 1px solid #333232;
+    position: relative;
+}
+
+.energy-figure__item__content {
+    padding: 20px;
+}
+
+.energy-figure__item__title {
+    color: #eeeeee;
+    font-size: 1.75rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.energy-figure__item__descr {
+    color: #bcbcbc;
+    font-size: 1rem;
+    max-width: 24rem;
+    margin-bottom: 2.25rem;
+}
