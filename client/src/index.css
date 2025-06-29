@@ -9,9 +9,8 @@
 }
 
 body {
-    font-family: "Montserrat",sans-serif;
+    font-family: "Lexend",sans-serif;
     background-color: #0f0f0f;
-    height: 3000px;
 }
 
 ul {
@@ -25,4 +24,8 @@ a {
 
 button {
     cursor: pointer;
+}
+
+h1,h2,h3,h4,p,span {
+    user-select: none;
 }

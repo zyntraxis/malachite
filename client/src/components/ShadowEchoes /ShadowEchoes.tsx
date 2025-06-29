@@ -3,9 +3,10 @@ import "./ShadowEchoes.css"
 const ShadowEchoes = () => {
     return (
         <div className="shadow-echoes">
-            <h2 className="shadow-echoes__title-section">Shadow Echoes</h2>
+            <h2 className="shadow-echoes__title-section">Initiate Your Path</h2>
             <ul className="shadow-echoes__list">
                 <li className="shadow-echoes__item">
+                    <div className="shadow-echoes__badge">hard mode</div>
                     <div className="shadow-echoes__left">
                         <img src="/shadow-echoes.png" alt="Shadow Echoes" className="shadow-echoes__img" />
                     </div>
@@ -17,6 +18,7 @@ const ShadowEchoes = () => {
                     </div>
                 </li>
                 <li className="shadow-echoes__item">
+                    <div className="shadow-echoes__badge">easy mode</div>
                     <div className="shadow-echoes__left">
                         <img src="/shadow-echoes2.png" alt="Shadow Echoes 2" className="shadow-echoes__img" />
                     </div>

@@ -16,6 +16,23 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+}
+
+.shadow-echoes__badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #13caa6;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0.4rem 0.8rem;
+    border-bottom-left-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
 }
 
 .shadow-echoes__title-section {
@@ -52,7 +69,7 @@
 .shadow-echoes__item:nth-child(2) .shadow-echoes__img,
 .shadow-echoes__item:nth-child(1) .shadow-echoes__img {
     border-radius: 12px;
-    width: 270px;
+    width: 350px;
     object-fit: cover;
 }
 

@@ -1,0 +1,119 @@
+.pricing {
+    padding: 4rem 2rem;
+    color: #eee;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.pricing__title {
+    color: #eeeeee;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 5rem;
+}
+
+.pricing__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto;
+}
+
+.pricing__card {
+    background-color: #1f1f1f;
+    border-radius: 16px;
+    padding: 2rem;
+    width: calc(100% / 3 - 25px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.pricing__card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 28px rgba(19, 202, 166, 0.6);
+}
+
+.pricing__plan {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.pricing__price {
+    font-size: 2rem;
+    color: #07a183;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.pricing__benefits {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+    color: #bcbcbc;
+    text-align: left;
+    width: 100%;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+.pricing__benefits li {
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.pricing__benefits li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #13caa6;
+    font-weight: bold;
+}
+
+.pricing__footer {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing__btn {
+    background-color: transparent;
+    color: #13caa6;
+    border: 2px solid #13caa6;
+    padding: 0.75rem 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.pricing__btn:hover {
+    background-color: #13caa6;
+    color: #121212;
+}
+
+.pricing__expand-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    text-decoration: underline;
+    align-self: flex-start;
+    margin-bottom: 0.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
