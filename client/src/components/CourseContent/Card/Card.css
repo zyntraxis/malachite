@@ -1,0 +1,78 @@
+.card {
+    background-color: #1f1f1f;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: calc(100% / 2 - 25px);
+    cursor: pointer;
+}
+
+.card__header {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap: 50px;
+}
+
+.card__title {
+    color: #d3d1d1;
+}
+
+.card__img-wrapper {
+    width: 80px;
+    height: 80px;
+    background-color: #5baa9a;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.card__img-wrapper.no-bg {
+    background-color: transparent;
+}
+
+.card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card__arrow-icon {
+    color: white;
+    font-size: 32px;
+}
+
+.card__main {
+    display: flex;
+    justify-content: space-between;
+    color: #d3d1d1;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.card__footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card__footer__text {
+    color: d3d1d1;
+    font-size: 12px;
+    font-weight: 300;
+    color: #07a183;
+}
+
+.card__footer__progress-track {
+    border-radius: 32px;
+}
+
+.card__footer__progress-range {
+    background-color: #07a183;
+    border-radius: 32px;
+}

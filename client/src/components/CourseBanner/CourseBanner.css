@@ -1,0 +1,46 @@
+.course-banner {
+    width: 100%;
+    background-color: #1f1f1f;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.course-banner__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.course-banner__left__type {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #bbb9b9;
+}
+
+.course-banner__left__title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #d3d1d1;
+}
+
+.course-banner__left__descr {
+    max-width: 600px;
+    color: #d3d1d1;
+}
+
+.course-banner__left__progress-track {
+    border-radius: 32px;
+}
+
+.course-banner__left__progress-range {
+    background-color: #07a183;
+    border-radius: 32px;
+}
+
+.course-banner__right__img {
+    height: 250px;
+}

@@ -1,0 +1,24 @@
+.course-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: start;
+}
+
+.course-content__left__title {
+    color: #d3d1d1;
+    font-size: 30px;
+    font-weight: 700;
+    width: 300px;
+}
+
+.course-content__left__descr {
+    color: #d3d1d1;
+    max-width: 300px;
+}
+
+.course-content__right {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}

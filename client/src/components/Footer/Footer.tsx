@@ -36,7 +36,7 @@ const Footer = () => {
                         </li>
                     </div>
                 </ul>
-                <span className="footer__copyright">© 2025 Malachite</span>
+                <span className="footer__copyright">&copy; {new Date().getFullYear()} Malachite All Rights Reserved.</span>
             </div>
             <div className="footer__right">
                 <div className="footer__right__top">

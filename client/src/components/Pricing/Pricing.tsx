@@ -1,8 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import "./Pricing.css";
 import { useState } from "react";
 
 const Pricing = () => {
     const [expandedCards, setExpandedCards] = useState([]);
+    const navigate = useNavigate();
 
     const toggleCardExpansion = (index) => {
         if (expandedCards.includes(index)) {
@@ -102,7 +104,20 @@ const Pricing = () => {
                                         {isExpanded ? 'Show less' : 'Show more'}
                                     </button>
                                 )}
-                                <button className="pricing__btn">Explore</button>
+                                <button
+                                    className="pricing__btn"
+                                    onClick={() => {
+                                        if (plan.name === "Starter Pack") {
+                                            navigate("/starter");
+                                        } else if (plan.name === "Balance Path") {
+                                            navigate("/balance");
+                                        } else if (plan.name === "Dark Path") {
+                                            navigate("/dark");
+                                        }
+                                    }}
+                                >
+                                    Explore
+                                </button>
                             </div>
                         </div>
                     );
