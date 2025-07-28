@@ -1,8 +1,8 @@
 .course-content {
     display: flex;
-    justify-content: space-between;
     gap: 80px;
     align-items: start;
+    margin-bottom: 200px;
 }
 
 .course-content__left__title {
@@ -19,6 +19,6 @@
 
 .course-content__right {
     display: flex;
-    gap: 25px;
     flex-wrap: wrap;
+    gap: 25px;
 }

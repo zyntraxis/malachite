@@ -1,7 +1,7 @@
 import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity()
-export class Profession {
+export class Course {
     @PrimaryGeneratedColumn()
     id: number;
 
@@ -17,6 +17,12 @@ export class Profession {
     @Column()
     image: string;
 
+    @Column()
+    materialCount: number;
+
+    @Column()
+    testCount: number;
+
     @Column("int", { array: true })
-    courses: number[];
+    modules: number[];
 }

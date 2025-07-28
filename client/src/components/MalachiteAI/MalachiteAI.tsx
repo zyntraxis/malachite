@@ -34,7 +34,7 @@ const MalachiteAI = () => {
         setLoading(true);
 
         try {
-            const res = await fetch("http://localhost:3000/ask", {
+            const res = await fetch("http://localhost:3000/malachite-ai/ask", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ message: userMessage }),

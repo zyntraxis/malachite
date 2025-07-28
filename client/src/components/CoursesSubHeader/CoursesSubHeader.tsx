@@ -12,12 +12,12 @@ const CoursesSubHeader = () => {
 
     return (
         <div className="courses-sub-header">
-            <div className="courses-sub-header__back">
+            <a href="/" className="courses-sub-header__back">
                 <MdArrowBackIos size={30} className="courses-sub-header__back__btn" />
                 <span className="courses-sub-header__back__text">
                     Back
                 </span>
-            </div>
+            </a>
             <div
                 className={`toggle-wrapper ${toggled ? "on" : "off"}`}
                 onClick={handleToggle}

@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
+    margin-bottom: 100px;
 }
 
 .course-banner__left {
@@ -43,4 +44,7 @@
 
 .course-banner__right__img {
     height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 8px;
 }

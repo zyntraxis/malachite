@@ -26,8 +26,10 @@
     font-size: 12px;
 }
 
-.courses-sub-header__back__text {
+.courses-sub-header__back__text,
+.courses-sub-header__back__btn {
     font-size: 16px;
+    color: gray;
 }
 
 .toggle-wrapper.on {

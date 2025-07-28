@@ -216,6 +216,10 @@
     animation-delay: 0.4s;
 }
 
+.loading-dots {
+    display: flex;
+}
+
 @keyframes blink {
 
     0%,

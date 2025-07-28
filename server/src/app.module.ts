@@ -1,9 +1,9 @@
 import { Module } from "@nestjs/common";
 import { ConfigModule } from "@nestjs/config";
-import { AppController } from "./app.controller";
-import { AppService } from "./app.service";
 import { ProfessionModule } from "./profession/profession.module";
 import { TypeOrmModule } from "@nestjs/typeorm";
+import { CourseModule } from './course/course.module';
+import { MalachiteAiModule } from './malachite-ai/malachite-ai.module';
 
 @Module({
     imports: [
@@ -21,8 +21,8 @@ import { TypeOrmModule } from "@nestjs/typeorm";
             autoLoadEntities: true,
             synchronize: true,
         }),
+        CourseModule,
+        MalachiteAiModule,
     ],
-    controllers: [AppController],
-    providers: [AppService],
 })
 export class AppModule { }
